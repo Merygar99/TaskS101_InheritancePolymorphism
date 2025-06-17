@@ -15,9 +15,19 @@ public class Main {
 
         System.out.println("-----------------");
 
-        System.out.println(WindInstrument.counter());
+        System.out.println(WindInstrument.getTotalInstrumentsCreated());
 
+        System.out.println("-----------------");
 
+        System.out.println("Creating a string instrument");
+        StringInstrument instrument5 = new StringInstrument("Guitar", 150.0);
+        instrument5.playInstrument();
+
+        System.out.println("-----------------");
+
+        System.out.println("Creating a percussion instrument");
+        PercussionInstrument instrument6 = new PercussionInstrument("Tambourine", 40.0);
+        instrument6.playInstrument();
     }
 }
 

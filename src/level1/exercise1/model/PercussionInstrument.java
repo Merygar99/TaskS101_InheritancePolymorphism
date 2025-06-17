@@ -11,4 +11,8 @@ public class PercussionInstrument extends Instrument {
         System.out.println("A percussion instrument is playing");
     }
 
+    static {
+        System.out.println("Entering the class Percussion Instrument");
+    }
+
 }

@@ -11,4 +11,8 @@ public class StringInstrument extends Instrument {
         System.out.println("A string instrument is playing");
     }
 
+    static {
+        System.out.println("Entering the class String Instrument");
+    }
+
 }

@@ -11,4 +11,8 @@ public abstract class Instrument {
 
     public abstract void playInstrument();
 
+    static {
+        System.out.println("Entering the class Instrument");
+    }
+
 }

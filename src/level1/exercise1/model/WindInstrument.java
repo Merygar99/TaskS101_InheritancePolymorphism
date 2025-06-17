@@ -13,8 +13,12 @@ public class WindInstrument extends Instrument {
         System.out.println("A wind instrument is playing");
     }
 
-    public static int counter() {
+    public static int getTotalInstrumentsCreated() {
         return num;
+    }
+
+    static {
+        System.out.println("Entering the class Wind Instrument");
     }
 
 }

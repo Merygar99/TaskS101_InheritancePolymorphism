@@ -1,4 +1,4 @@
-package level2.exersice1.model;
+package level2.exercise1.model;
 
 public class Telephone {
     private String brand;

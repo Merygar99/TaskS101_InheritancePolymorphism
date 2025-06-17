@@ -1,4 +1,4 @@
-package level2.exersice1.model;
+package level2.exercise1.model;
 
 public class Smartphone extends Telephone implements Camera, Watch {
 
@@ -7,7 +7,7 @@ public class Smartphone extends Telephone implements Camera, Watch {
     }
 
     @Override
-    public void photograph() {
+    public void takePhoto() {
         System.out.println("Taking a photo");
     }
 

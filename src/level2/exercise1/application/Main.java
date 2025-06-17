@@ -1,6 +1,6 @@
-package level2.exersice1.application;
+package level2.exercise1.application;
 
-import level2.exersice1.model.Smartphone;
+import level2.exercise1.model.Smartphone;
 
 public class Main {
     public static void main(String[] args) {

@@ -7,7 +7,7 @@ public class Smartphone extends Telephone implements Camera, Watch {
     }
 
     @Override
-    public void photograph() {
+    public void takePhoto() {
         System.out.println("Taking a photo");
     }
 
